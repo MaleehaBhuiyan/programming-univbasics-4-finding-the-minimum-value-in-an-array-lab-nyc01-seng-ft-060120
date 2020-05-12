@@ -1,3 +1,11 @@
 def find_min_value(array)
-  # Add your solution here
+  counter = 0
+  min_value = 10
+  while array[counter] do
+    if min_value > array[counter]
+      min_value = array[counter]
+    else
+      count += 1
+    end
+  end
 end
